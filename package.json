@@ -1,0 +1,28 @@
+{
+  "name": "flexbox-grid",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "gulp less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraVieira/Flexy.git"
+  },
+  "keywords": [
+    "css",
+    "flexbox",
+    "grid"
+  ],
+  "author": "Sara Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraVieira/Flexy/issues"
+  },
+  "homepage": "https://github.com/SaraVieira/Flexy#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
+}

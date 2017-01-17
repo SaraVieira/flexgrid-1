@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Flexy</title>
+  <meta name="description" content="Flexy">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="dist/flexy.css">
+  <style>
+  .row > div> div {
+  background: red;
+  }
+  </style>
+</head>
+<body>
+  <section class="container">
+  	<div class="row">
+  		<div class="col-6 col-l-4 col-m-5 col-s-12">
+  			<ul>
+  				<li>This Div will fill 6 columns when the screen is bigger than 1024px.</li>
+  				<li>Then untill the screen is bigger than 768px it will only fill 4 columns</li>
+  				<li>In screen sizes between 767px and 480px it will fill 5 columns</li>
+  				<li>For really small phones it will ocupy 12 columns</li>
+  			</ul>
+  		</div>
+  		<div class="col-6 col-l-8 col-m-7 col-s-hidden">
+  			<ul>
+  				<li>This Div will fill 6 columns when the screen is bigger than 1024px.</li>
+  				<li>Then untill the screen is bigger than 768px it will fill 8 columns</li>
+  				<li>In screen sizes between 767px and 480px it will fill 7 columns</li>
+  				<li>For really small phones this div will not appear</li>
+  		</div>
+  	</div>
+    <div class="row">
+      <div class="col-offset-4 col-4">
+        <p>This element has an offset of four columns</p>
+      </div>
+      <div class="col-4">
+        <p>This element has 4 columns</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
